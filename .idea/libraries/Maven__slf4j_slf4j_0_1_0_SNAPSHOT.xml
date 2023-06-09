@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: slf4j:slf4j:0.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/code/apache-maven-3.3.3-bin/maven-repository/slf4j/slf4j/0.1.0-SNAPSHOT/slf4j-0.1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/code/apache-maven-3.3.3-bin/maven-repository/slf4j/slf4j/0.1.0-SNAPSHOT/slf4j-0.1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/code/apache-maven-3.3.3-bin/maven-repository/slf4j/slf4j/0.1.0-SNAPSHOT/slf4j-0.1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

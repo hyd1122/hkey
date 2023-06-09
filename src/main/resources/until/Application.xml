@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--
+（1）在spring配置文件中，使用bean标签，标签里面添加对于属性，就可以实现对象创建
+（2）在bean标签有很多属性，介绍常用的属性
+id属性：唯一标识
+class属性：类全路径标识（包类路径）
+（3）创建对象时候，默认也是执行无参数构造方法完成对象创建
+-->
+<!--  配置User对象属性  -->
+    <bean id="user" class="com.springtest01.User"></bean>
+
+<!--  使用set属性注入  -->
+<!--    <bean id="book" class="com.springtest01.Book">-->
+<!--        <property name="bname" value="三国演义"></property>-->
+<!--        <property name="bauthor" value="吴承恩"></property>-->
+<!--    </bean>-->
+
+<!--  使用有参构造注入  -->
+    <bean id="book" class="com.springtest01.Book">
+        <constructor-arg name="bname" value="水浒传"></constructor-arg>
+        <constructor-arg name="bauthor" value="武松"></constructor-arg>
+<!--    设置空值    -->
+<!--        <constructor-arg name="address">-->
+<!--            <null></null>-->
+<!--        </constructor-arg>-->
+<!--    属性值包含特殊符号 <![CDATA[值]]>  -->
+        <constructor-arg name="address">
+            <value><![CDATA[<<老虎岗>>]]></value>
+        </constructor-arg>
+    </bean>
+</beans>

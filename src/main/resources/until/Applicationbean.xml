@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--bean的生命周期
+（1）通过构造器创建bean实例（无参构造）
+（2）为bean的属性设置值和其他bean引用（调用set方法）
+（3）把bean的实例传递给后置处理器  postProcessBeforeInitialization
+（4）调用bean的初始化的方法（需要进行配置初始化的方法）
+（5）把bean的实例传递给后置处理器的方法 postProcessAfterInitialization
+（6）bean可以使用了（对象获取到了）
+（7）当容器关闭时候，调用bean的销毁的方法（需要进行配置销毁的方法）-->
+    <bean id="orders" class="com02.bean.Orders" init-method="initMonthed" destroy-method="colseBean">
+        <property name="oname" value="华为"></property>
+    </bean>
+<!--  配置后置处理器  -->
+    <bean id="mybean" class="com02.bean.MyBean"></bean>
+</beans>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.aspectj:aspectjtools:1.5.4">
+    <CLASSES>
+      <root url="jar://D:/code/apache-maven-3.3.3-bin/maven-repository/org/aspectj/aspectjtools/1.5.4/aspectjtools-1.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/code/apache-maven-3.3.3-bin/maven-repository/org/aspectj/aspectjtools/1.5.4/aspectjtools-1.5.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/code/apache-maven-3.3.3-bin/maven-repository/org/aspectj/aspectjtools/1.5.4/aspectjtools-1.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
